@@ -1,0 +1,47 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+nav {
+  padding: 14px;
+  overflow: hidden;
+  text-align: center;
+  background-color: #0a6cc0;
+}
+nav a {
+  display: inline-block;
+  padding: 14px 20px;
+  text-align: center;
+  text-decoration: none;
+  color: #fff;
+  font-size: 17px;
+}
+
+nav a:hover {
+  background-color: #fff;
+  color: black;
+}
+body {
+  font-family: 'Black Ops One', system-ui;
+  font-weight: 400;
+  font-style: normal;
+  background-color: white;
+}
+.container {
+  width: 80%;
+  margin: 50px auto;
+}
+.contact-box {
+  display: flex;
+}
+.contact-left {
+  flex-basis: 60%;
+  padding: 40px 60px;
+  border: 2px solid #0a6cc0;
+}
+.contact-right {
+  flex-basis: 60%;
+  padding: 40px 60px;
+  background: #0a6cc0;
+}

@@ -1,0 +1,103 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: system-ui, sans-serif;
+  color: black;
+  background-color: white;
+}
+
+nav {
+  padding: 14px;
+  overflow: hidden;
+  text-align: center;
+  background-color: #0a6cc0;
+}
+nav a {
+  display: inline-block;
+  padding: 14px 20px;
+  text-align: center;
+  text-decoration: none;
+  color: #fff;
+  font-size: 17px;
+}
+
+nav a:hover {
+  background-color: #fff;
+  color: black;
+}
+
+main {
+  padding: 1rem;
+}
+
+h1 {
+  font-weight: bold;
+  font-size: 1.5rem;
+  text-align: center;
+}
+h3 {
+  text-align: center;
+}
+.header {
+  text-align: center;
+  padding: 10px 0;
+  font-size: xx-large;
+  margin: 20px 0;
+}
+.car-name {
+  text-align: center;
+  font-size: 1.2em;
+  margin: 15px 0;
+}
+.car-price {
+  text-align: center;
+  font-size: 12px;
+}
+.car-image {
+  text-align: center;
+}
+.car-image img {
+  border: 2px solid #ddd;
+  padding: 5px;
+  transition: transform 0.2s;
+}
+.car-image:hover {
+  transform: scale(1.1);
+}
+.page-button {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #0a6cc0;
+  border-radius: 30px;
+  padding: 5px 10px;
+  box-shadow: 0px 5px 15px 0px #0a6cc0;
+}
+.page-button:hover {
+  transform: scale(1.1);
+}
+.page-button a {
+  color: white;
+  text-decoration: none;
+  font-size: small;
+}
+.back-button {
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  background-color: #0a6cc0;
+  border-radius: 30px;
+  padding: 5px 10px;
+  box-shadow: 0px 5px 15px 0px #0a6cc0;
+}
+.back-button:hover {
+  transform: scale(1.1);
+}
+.back-button a {
+  color: white;
+  text-decoration: none;
+  font-size: small;
+}
